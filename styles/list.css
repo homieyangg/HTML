@@ -1,0 +1,24 @@
+.list1 {
+    list-style-type: circle;
+    border: 5px dotted rgb(255, 89, 0);
+    /*  border-radius: 5px 10px 15px 20px; 
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px; */
+    border-radius: 50px 0 50px 0;
+    /*左上 右上 右下 左下 */
+}
+
+.list2 {
+    list-style-type: none;
+    list-style-image: url(../images/floor-graphic-ARROW.jpg);
+}
+
+.in {
+    background-color: rgb(190, 96, 96);
+    list-style-position: inside;
+}
+
+.out {
+    background-color: rgb(190, 96, 96);
+    list-style-position: outside;
+}

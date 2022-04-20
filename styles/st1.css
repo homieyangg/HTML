@@ -1,0 +1,33 @@
+h2.st1{
+    color: green;
+    font-style: italic;
+}
+.st2{
+    color: tomato;
+    text-decoration: underline;
+}
+.col1{
+    color: chocolate;
+}
+.col2{
+    color: rgb(42, 165, 122);
+}
+.size1{
+    font-size: 2em;
+}
+.sty1{
+    font-style: italic;
+}
+.under1{
+    text-decoration: underline;
+}
+.thecol1{
+    color: darkblue;
+}
+#thecol2{
+    color: rebeccapurple;
+}
+p{
+    color: darkgray;
+    font-size: 1.2em;
+}
