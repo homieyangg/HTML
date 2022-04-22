@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Column Count" content="width=device-width, initial-scale=1.0">
+    <title>Column Count</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-image: url(images/bank.jpg);
+            background-repeat:no-repeat;
+            background-size: 100% 100%;
+            background-attachment: fixed; /*fixed只適合body,textarea元素*/
+        }
+
+        div {
+            background:rgba(255, 251, 249, 0.701);
+            width: 70%;
+            margin: 130px auto;
+            padding: 30px 50px;
+            border-radius: 15px;
+        }
+
+        .column1 {
+            width: 70%;
+            border: 5px dashed orange;
+            padding: 20px;
+            margin: 20px auto;
+            line-height: 1.7;
+            text-align: justify;
+            border-radius: 15px;
+            column-count: 2;
+            column-gap: 2em;
+            column-rule: 5px dashed gray;
+            background-image: url(images/floor-graphic-ARROW.jpg);
+            background-repeat:repeat-x;
+            background-position: bottom;
+        }
+
+        .column2 {
+            width: 70%;
+            margin: 20px auto;
+            padding: 20px;
+            border: 5px dotted rgba(18, 83, 29, 0.927);
+            line-height: 1.7;
+            border-radius: 15px;
+            text-align: justify;
+            column-width: 200px;
+            column-gap: 2em;
+            column-rule: 5px dotted rgba(127, 216, 142, 0.927);
+            background-image: url(images/floor-graphic-ARROW.jpg);
+            background-repeat:no-repeat;
+            background-position:right bottom;
+            background-size: 50px 50px;
+        }
+        .column3{
+            width: 70%;
+            margin: 20px auto;
+            padding: 20px;
+            border: 5px dotted rgba(18, 83, 29, 0.927);
+            line-height: 1.7;
+            border-radius: 15px;
+            text-align: justify;
+            column-width: 300px;
+            column-gap: 2em;
+            column-rule: 5px dotted rgba(127, 216, 142, 0.927);
+        }
+        div.column3 p{
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="column1">
+            <p>
+                【時報-台北電】美國超級財報周即將開跑，科技巨擘如蘋果、特斯拉、英特爾等接連出擊，恰逢美國聯準會（Fed）鷹派聲量加大，全球股市再度遭遇回檔，市場寄望全球大型企業釋出積極展望挽救市場信心，拉動台股相關供應鏈，穩穩守住萬七關卡。
+
+                早在美股超級財報周之前，台股兩大重量級權值股台積電、大立光已領先於14日召開法說會，不過，儘管全球晶圓代工龍頭台積電對長期展望保持樂觀，股價卻依然不給力，分析師剖析，此狀況與Fed升息腳步可能加快，美國10年期公債殖利率陡峭上升、飆破2.8％，導致台積電現金殖利率失去過往的高吸引力有關，換言之，台積電股價失色主因比較偏向籌碼因素；至於大立光股價積弱，則持續反映出智慧型手機需求不彰疑慮。
+            </p>
+        </div>
+        <div class="column2">
+            <p>
+                【時報-台北電】美國超級財報周即將開跑，科技巨擘如蘋果、特斯拉、英特爾等接連出擊，恰逢美國聯準會（Fed）鷹派聲量加大，全球股市再度遭遇回檔，市場寄望全球大型企業釋出積極展望挽救市場信心，拉動台股相關供應鏈，穩穩守住萬七關卡。
+
+                早在美股超級財報周之前，台股兩大重量級權值股台積電、大立光已領先於14日召開法說會，不過，儘管全球晶圓代工龍頭台積電對長期展望保持樂觀，股價卻依然不給力，分析師剖析，此狀況與Fed升息腳步可能加快，美國10年期公債殖利率陡峭上升、飆破2.8％，導致台積電現金殖利率失去過往的高吸引力有關，換言之，台積電股價失色主因比較偏向籌碼因素；至於大立光股價積弱，則持續反映出智慧型手機需求不彰疑慮。
+            </p>
+        </div>
+        <div class="column3">
+            <p>
+                【時報-台北電】美國超級財報周即將開跑，科技巨擘如蘋果、特斯拉、英特爾等接連出擊，恰逢美國聯準會（Fed）鷹派聲量加大，全球股市再度遭遇回檔，市場寄望全球大型企業釋出積極展望挽救市場信心，拉動台股相關供應鏈，穩穩守住萬七關卡。
+            </p>
+            <p>    
+                早在美股超級財報周之前，台股兩大重量級權值股台積電、大立光已領先於14日召開法說會，不過，儘管全球晶圓代工龍頭台積電對長期展望保持樂觀，股價卻依然不給力，分析師剖析，此狀況與Fed升息腳步可能加快，美國10年期公債殖利率陡峭上升、飆破2.8％，導致台積電現金殖利率失去過往的高吸引力有關，換言之，台積電股價失色主因比較偏向籌碼因素；至於大立光股價積弱，則持續反映出智慧型手機需求不彰疑慮。
+            </p>
+            <p>    
+                早在美股超級財報周之前，台股兩大重量級權值股台積電、大立光已領先於14日召開法說會，不過，儘管全球晶圓代工龍頭台積電對長期展望保持樂觀，股價卻依然不給力，分析師剖析，此狀況與Fed升息腳步可能加快，美國10年期公債殖利率陡峭上升、飆破2.8％，導致台積電現金殖利率失去過往的高吸引力有關，換言之，台積電股價失色主因比較偏向籌碼因素；至於大立光股價積弱，則持續反映出智慧型手機需求不彰疑慮。
+            </p>
+            <p>    
+                早在美股超級財報周之前，台股兩大重量級權值股台積電、大立光已領先於14日召開法說會，不過，儘管全球晶圓代工龍頭台積電對長期展望保持樂觀，股價卻依然不給力，分析師剖析，此狀況與Fed升息腳步可能加快，美國10年期公債殖利率陡峭上升、飆破2.8％，導致台積電現金殖利率失去過往的高吸引力有關，換言之，台積電股價失色主因比較偏向籌碼因素；至於大立光股價積弱，則持續反映出智慧型手機需求不彰疑慮。
+            </p>
+            <p>    
+                早在美股超級財報周之前，台股兩大重量級權值股台積電、大立光已領先於14日召開法說會，不過，儘管全球晶圓代工龍頭台積電對長期展望保持樂觀，股價卻依然不給力，分析師剖析，此狀況與Fed升息腳步可能加快，美國10年期公債殖利率陡峭上升、飆破2.8％，導致台積電現金殖利率失去過往的高吸引力有關，換言之，台積電股價失色主因比較偏向籌碼因素；至於大立光股價積弱，則持續反映出智慧型手機需求不彰疑慮。
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
